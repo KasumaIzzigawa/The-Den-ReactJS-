@@ -1,38 +1,58 @@
-.App {
-  text-align: center;
+.row-preview {
+  background-color: white;
+  border-width: 5px;
+  border-style: groove;
+  margin-bottom: 10px;
+  min-height: 200px;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.row-content {
+  background-color: white;
+  border-width: 5px;
+  border-style: groove;
+  min-height: 400px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+#ImgPre {
+  border-width: 1px;
+  border-style: solid;
+  border-color: darkgray;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.footer {
+  background-color: lightgray;
+  margin-top: 10px;
 }
 
-.App-link {
-  color: #61dafb;
+.jumbotron {
+  background-color: lightgray;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.navbar-dark {
+  background-color: #343a40;
+}
+
+p#artdate {
+  font-size: 12px;
+  margin: 0px;
+}
+
+a#read-more {
+  font-size: 12px;
+}
+
+body {
+  background-color: #343a40;
+}
+
+#artListTitle, #aboutTitle {
+  color: lightgray;
+}
+
+hr {
+  border-color: lightgray;
+}
+
+#homeList, #jumboContent, #artList, #about {
+  animation-duration: 1.25s;
 }
