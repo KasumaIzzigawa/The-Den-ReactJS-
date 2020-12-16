@@ -4,7 +4,7 @@ function RenderArticlePreview({id, date}) {
     return(
         <div className="row row-preview">
             <div className="col-3 mt-1">
-                <a href="/"><img src="images/foxlogo.jpg" alt="fox" id="ImgPre" className="img-fluid" /></a>
+                <a href="/"><img src="/images/foxlogo.jpg" alt="fox" id="ImgPre" className="img-fluid" /></a>
             </div>
             <div className="col-9">
                 <h3>Article {id}</h3>

@@ -53,6 +53,6 @@ hr {
   border-color: lightgray;
 }
 
-#homeList, #jumboContent, #artList, #about {
+.animate__animated.animate__fadeIn {
   animation-duration: 1.25s;
 }

@@ -1,6 +1,6 @@
 import React from 'react';
 
-const About = (props) => {
+const About = () => {
     return(
         <div className="container animate__animated animate__fadeIn" id="about">
             <div className="row">
